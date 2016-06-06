@@ -8,7 +8,7 @@ Having wanted to include moving pictures in my GitHub READMEs, I set out to look
 
 ## Version History :package:
 
-**latest** 	[XML Test v1.0.0](https://github.com/joshua-kairu/xml-test/releases/download/v1.0/XML-Test-v1.0.0.apk) 	Monday, June 6, 2016 
+**latest** 	[gifenc.sh v1.0.0](https://github.com/joshua-kairu/gif-encoder/releases/download/v1.0.0/gifenc.sh) 	Monday, June 6, 2016 
 
 This repo tries its best to follow the [Semantic Versioning](http://semver.org/) guidelines.
 
