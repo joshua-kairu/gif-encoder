@@ -14,11 +14,11 @@ This repo tries its best to follow the [Semantic Versioning](http://semver.org/)
 
 ## How To Use :wrench:
 
-:zero: Download the latest release.
-:one: In a terminal, change directories to where the '''bash gifenc.sh ''' file is.
-:two: As of Monday, June 6, 2016, the script can be run by writing:
+* :zero: Download the latest release.
+* :one: In a terminal, change directories to where the ```gifenc.sh ``` file is. 
+* :two: As of Monday, June 6, 2016, the script can be run by writing:
 
-'''bash $ sudo sh gifenc.sh /path/to/video /path/to/GIF'''
+```$ sudo sh gifenc.sh /path/to/video /path/to/GIF```
 
 ## Abilities :muscle:
 
@@ -28,14 +28,14 @@ This script can:
 ## Limitations :worried:
 
 This script has issues such as:
-* It needs '''bash sudo''' access to run.
-* It does not provide a '''bash --help''' argument for quick help.
+* It needs ```sudo``` access to run.
+* It does not provide a ```--help``` argument for quick help.
 
 ## Possible Future Work :fast_forward:
 
-'''bash gifenc''' can be expanded to:
+```gifenc``` can be expanded to:
 - [ ] Provide more help on the console.
-- [ ] Avoid having to use '''bash sudo''' every time.
+- [ ] Avoid having to use ```sudo``` every time.
 
 ## Other things :books:
 
