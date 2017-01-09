@@ -16,9 +16,24 @@ This repo tries its best to follow the [Semantic Versioning](http://semver.org/)
 
 * :zero: Download the latest release.
 * :one: In a terminal, change directories to where the ```gifenc.sh ``` file is. 
-* :two: As of Monday, June 6, 2016, the script can be run by writing:
+* :two: You can then the script can be run by writing:
 
 ```$ sudo sh gifenc.sh /path/to/video /path/to/GIF```
+
+* :three: To make the script work like any other command line script,
+    1. Make the script executable by writing: 
+    `$ chmod +x gifenc`
+ 
+    2. Open up `.bashrc` using your favorite text editor
+    `$ nano ~/.bashrc`
+    
+    3. At the bottom of `.bashrc` write a line that looks like:
+    `alias gifenc='/path/to/gifenc.sh'`
+    
+    4. Save changes.
+    
+    1. Make the terminal understand the changes by writing:
+    `source ~/.bashrc`
 
 ## Abilities :muscle:
 
@@ -28,18 +43,19 @@ This script can:
 ## Limitations :worried:
 
 This script has issues such as:
-* It needs ```sudo``` access to run.
 * It does not provide a ```--help``` argument for quick help.
 
 ## Possible Future Work :fast_forward:
 
 ```gifenc``` can be expanded to:
 - [ ] Provide more help on the console.
-- [ ] Avoid having to use ```sudo``` every time.
+- [x] Avoid having to use ```sudo``` every time. Solved on Monday, 09. January 2017.
 
 ## Other things :books:
 
-Big thanks to the folks at http://blog.pkh.me/ for their nice tutorial. Wouldn't be the same without this.
+Big thanks to the folks at the following sites for their nice tutorial. Wouldn't be the same without these.
+* http://blog.pkh.me/
+* http://askubuntu.com/questions/229589/how-to-make-a-file-e-g-a-sh-script-executable-so-it-can-be-run-from-termina
 
 ## License :lock_with_ink_pen:
 
